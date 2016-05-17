@@ -12,7 +12,7 @@ var activeMovie = -1
 var indexPaths : [NSIndexPath] = []
 var currentCategory = "Now Showing"
 
-class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate, UIPickerViewDataSource {
+class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate, UIPickerViewDataSource, UIPopoverPresentationControllerDelegate  {
 
     @IBOutlet var table: UITableView!
     @IBOutlet var pickerView: UIPickerView!
@@ -141,12 +141,34 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     @IBAction func CategoryButton(sender: AnyObject) {
-        if pickerView.hidden {
+        
+        self.performSegueWithIdentifier("categoryPop", sender: self)
+        
+        /* OLD ITERATION
+         if pickerView.hidden {
             pickerView.hidden = false
             mainView.bringSubviewToFront(pickerView)
         } else {
             pickerView.hidden = true
+        } */
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "categoryPop" {
+            
+            var catPicker = segue.destinationViewController 
+            
+            var controller = catPicker.popoverPresentationController
+            
+            if controller != nil {
+                controller?.delegate = self
+            }
+            
         }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .None
     }
     /*
     // MARK: - Navigation

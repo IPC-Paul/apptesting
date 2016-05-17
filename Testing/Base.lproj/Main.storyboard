@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -7,6 +7,50 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Category Table-->
+        <scene sceneID="p3E-GQ-ZSx">
+            <objects>
+                <tableViewController id="TMC-UO-5Jq" customClass="CategoryTable" customModule="Testing" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="leQ-B3-rhc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCell" id="hG0-3z-oc0" customClass="CategoryCell" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hG0-3z-oc0" id="WPS-55-e2O">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-qm-BRU">
+                                            <rect key="frame" x="277" y="7" width="46" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="CategoryButtonPress:" destination="hG0-3z-oc0" eventType="touchUpInside" id="iXX-z9-EAX"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="xuH-qm-BRU" firstAttribute="centerX" secondItem="WPS-55-e2O" secondAttribute="centerX" id="5mI-y4-pq4"/>
+                                        <constraint firstItem="xuH-qm-BRU" firstAttribute="centerY" secondItem="WPS-55-e2O" secondAttribute="centerY" id="SHg-yg-UWL"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryButton" destination="xuH-qm-BRU" id="aSt-Nm-k3T"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="TMC-UO-5Jq" id="P9z-Aa-85x"/>
+                            <outlet property="delegate" destination="TMC-UO-5Jq" id="CCi-6E-spe"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgK-gX-JlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2779" y="1211"/>
+        </scene>
         <!--Movie List-->
         <scene sceneID="xsS-7k-Fwa">
             <objects>
@@ -284,36 +328,12 @@
                         <outlet property="mainView" destination="pao-FX-HDJ" id="M3U-eQ-TGx"/>
                         <outlet property="pickerView" destination="jdJ-sL-35Q" id="x8H-7c-PAm"/>
                         <outlet property="table" destination="jzx-4j-SGa" id="M1u-J8-fAe"/>
+                        <segue destination="TMC-UO-5Jq" kind="popoverPresentation" identifier="categoryPop" popoverAnchorBarButtonItem="uhx-FZ-Yhl" id="3ap-gG-eNk">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRz-JJ-DuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cn2-Re-0xN" userLabel="category table" customClass="CategoryTable" customModule="Testing" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="240" height="140"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <prototypes>
-                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="categoryCell" id="xax-R7-dry" customClass="CategoryCell" customModule="Testing" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="28" width="240" height="44"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xax-R7-dry" id="X2t-ub-5WO">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjH-ZB-CkH">
-                                        <rect key="frame" x="97" y="7" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="catButtTouched:" destination="xax-R7-dry" eventType="touchUpInside" id="qeO-pO-0lq"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </tableViewCellContentView>
-                            <connections>
-                                <outlet property="catButt" destination="BjH-ZB-CkH" id="EuR-Zx-tMf"/>
-                            </connections>
-                        </tableViewCell>
-                    </prototypes>
-                </tableView>
             </objects>
             <point key="canvasLocation" x="-2188" y="1425"/>
         </scene>

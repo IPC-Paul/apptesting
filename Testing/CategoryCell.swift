@@ -11,9 +11,10 @@ import UIKit
 class CategoryCell: UITableViewCell  {
     
     var thisCat : String = ""
-    @IBOutlet weak var catButt: UIButton!
+    @IBOutlet var categoryButton: UIButton!
     
-    @IBAction func catButtTouched(sender: AnyObject) {
+    
+    @IBAction func CategoryButtonPress(sender: AnyObject) {
         currentCategory = thisCat
     }
 

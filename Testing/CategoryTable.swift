@@ -8,15 +8,19 @@
 
 import UIKit
 
-class CategoryTable: UITableView, UITableViewDelegate, UITableViewDataSource {
+class CategoryTable: UITableViewController {
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell  {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell  {
         let catCell = tableView.dequeueReusableCellWithIdentifier("categoryCell")
         return catCell!
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
+    }
+    
+    override func tableView(tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
+        tableView.tableFooterView = UIView(frame: CGRectZero)
     }
     
     /*
