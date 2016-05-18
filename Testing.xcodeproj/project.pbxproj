@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA03CFD31CECEF6800EFDA3A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */; };
 		DA03CFD51CED003500EFDA3A /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA03CFD41CED003500EFDA3A /* readme.txt */; };
+		DA03CFD91CED06A800EFDA3A /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03CFD81CED06A800EFDA3A /* TheaterViewController.swift */; };
 		DA3B6C661CBC125F00CECD6D /* blvd_poster_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */; };
 		DA3B6C6A1CBC464500CECD6D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B6C691CBC464500CECD6D /* MovieViewController.swift */; };
 		DA8831CC1CBDA0A800E098C5 /* TermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8831CB1CBDA0A800E098C5 /* TermsController.swift */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		DA03CFD41CED003500EFDA3A /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		DA03CFD81CED06A800EFDA3A /* TheaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
 		DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blvd_poster_placeholder.png; sourceTree = "<group>"; };
 		DA3B6C691CBC464500CECD6D /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		DA8831CB1CBDA0A800E098C5 /* TermsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				DA3A2E7B1CD7C53200D7FFCF /* Search */,
 				DA3A2E781CD7C4EE00D7FFCF /* Unused */,
 				DAA43EB11CB2DDBD00AEE214 /* MapViewController.swift */,
+				DA03CFD81CED06A800EFDA3A /* TheaterViewController.swift */,
 				DA8831CB1CBDA0A800E098C5 /* TermsController.swift */,
 				DAA43EAD1CB2DDBD00AEE214 /* AppDelegate.swift */,
 				DAC8E84F1CB7F86000EAF853 /* BaseData.swift */,
@@ -370,6 +373,7 @@
 				DA3B6C6A1CBC464500CECD6D /* MovieViewController.swift in Sources */,
 				DAAE6BB31CEA81760087DA0C /* CategoryCell.swift in Sources */,
 				DAC8E8521CB7F86000EAF853 /* Classes.swift in Sources */,
+				DA03CFD91CED06A800EFDA3A /* TheaterViewController.swift in Sources */,
 				DAA43EB21CB2DDBD00AEE214 /* MapViewController.swift in Sources */,
 				DAB8F9691CC7D02800CCDDDE /* MoviePurchaseViewController.swift in Sources */,
 				DAC8E8511CB7F86000EAF853 /* BaseData.swift in Sources */,

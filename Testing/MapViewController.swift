@@ -42,8 +42,10 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate {
         self.map.addAnnotation(annotation)
             
     }
-    
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+	
+	/*
+
+	func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         let userLocation:CLLocation = locations[0] as CLLocation
         let latitude = userLocation.coordinate.latitude
@@ -57,12 +59,11 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate {
         
         self.map.setRegion(region, animated: true)
     }
+	
+	*/
     
     @IBAction func NavButton(sender: AnyObject) {
-        manager.requestWhenInUseAuthorization()
-        manager.startUpdatingLocation()
-        
-        
+		
     }
     
 
