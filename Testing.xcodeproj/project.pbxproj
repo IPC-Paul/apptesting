@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA03CFD31CECEF6800EFDA3A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */; };
 		DA3B6C661CBC125F00CECD6D /* blvd_poster_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */; };
 		DA3B6C6A1CBC464500CECD6D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B6C691CBC464500CECD6D /* MovieViewController.swift */; };
 		DA8831CC1CBDA0A800E098C5 /* TermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8831CB1CBDA0A800E098C5 /* TermsController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blvd_poster_placeholder.png; sourceTree = "<group>"; };
 		DA3B6C691CBC464500CECD6D /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		DA8831CB1CBDA0A800E098C5 /* TermsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				DAA43EAD1CB2DDBD00AEE214 /* AppDelegate.swift */,
 				DAC8E84F1CB7F86000EAF853 /* BaseData.swift */,
 				DAC8E8501CB7F86000EAF853 /* Classes.swift */,
+				DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				DAC8E8511CB7F86000EAF853 /* BaseData.swift in Sources */,
 				DAA186231CBEE61C00A9F671 /* SearchViewController.swift in Sources */,
 				DAAE6BB71CEA85DC0087DA0C /* CategoryTable.swift in Sources */,
+				DA03CFD31CECEF6800EFDA3A /* GlobalFunctions.swift in Sources */,
 				DA8831CC1CBDA0A800E098C5 /* TermsController.swift in Sources */,
 				DAB8F9651CC6A90100CCDDDE /* SearchTableViewCell.swift in Sources */,
 				DAC8E8541CB846DC00EAF853 /* MovieDetailViewController.swift in Sources */,

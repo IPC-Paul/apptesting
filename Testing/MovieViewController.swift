@@ -11,11 +11,12 @@ import UIKit
 var activeMovie = -1
 var indexPaths : [NSIndexPath] = []
 var currentCategory = "Now Showing"
+var catPicker : CategoryTable = CategoryTable()
 
-class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate, UIPickerViewDataSource, UIPopoverPresentationControllerDelegate  {
+class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPopoverPresentationControllerDelegate  {
 
     @IBOutlet var table: UITableView!
-    @IBOutlet var pickerView: UIPickerView!
+    // @IBOutlet var pickerView: UIPickerView!
     @IBOutlet var mainView: UIView!
     @IBOutlet var categoryButton: UIBarButtonItem!
     
@@ -26,10 +27,10 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pickerView.selectRow(categories.indexOf(currentCategory)!, inComponent: 0, animated: false)
+        // pickerView.selectRow(categories.indexOf(currentCategory)!, inComponent: 0, animated: false)
         table.estimatedRowHeight = 265
         categoryButton.title = currentCategory
-        //dataManager.beginParsing()
+        //d ataManager.beginParsing()
         
         // Do any additional setup after loading the view.
     }
@@ -115,6 +116,8 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
             return nil
         }
     }
+	
+	/*
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
@@ -140,6 +143,8 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
         //table.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
     }
 
+	*/
+
     @IBAction func CategoryButton(sender: AnyObject) {
         
         self.performSegueWithIdentifier("categoryPop", sender: self)
@@ -156,11 +161,10 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "categoryPop" {
             
-            let catPicker = segue.destinationViewController as! CategoryTable
+            catPicker = segue.destinationViewController as! CategoryTable
             
             let controller = catPicker.popoverPresentationController
-            
-            catPicker.preferredContentSize = CGSize(width: 100, height: 100)
+			catPicker.movieTable = self
             
             if controller != nil {
                 controller?.delegate = self
@@ -168,6 +172,16 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
             
         }
     }
+	
+	func ChangeCategory (category: String) -> Void {
+		
+		currentCategory = category
+		categoryButton.title = currentCategory
+		table.reloadRowsAtIndexPaths(indexPaths, withRowAnimation: UITableViewRowAnimation.Automatic)
+		
+		print(category)
+		
+	}
     
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return .None

@@ -11,7 +11,11 @@ import UIKit
 class CategoryTable: UITableViewController {
     
     @IBOutlet weak var catTable: UITableView!
+	
+	var movieTable : MovieViewController = MovieViewController()
+	
 	var largestWidth : Float = 0
+	var thisOne : CategoryCell = CategoryCell()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +45,25 @@ class CategoryTable: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
     }
-    
+	
+	override func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+		
+		thisOne = catTable.cellForRowAtIndexPath(indexPath) as! CategoryCell
+		
+		//ChangeCategory(thisOne.thisCat)
+		self.dismissViewControllerAnimated(true) { 
+			self.movieTable.ChangeCategory(self.thisOne.thisCat)
+		}
+		
+		return indexPath
+	}
+	
+	/*
+	override func viewDidDisappear(animated: Bool) {
+		ChangeCategory(thisOne.thisCat)
+	}
+	*/
+	
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

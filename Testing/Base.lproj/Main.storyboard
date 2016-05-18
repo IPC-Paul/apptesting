@@ -67,17 +67,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView hidden="YES" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-sL-35Q">
-                                <rect key="frame" x="0.0" y="584" width="414" height="103"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" allowsDirectInteraction="YES"/>
-                                </accessibility>
-                                <connections>
-                                    <outlet property="dataSource" destination="Fqc-9E-qnn" id="0ML-r3-OwP"/>
-                                    <outlet property="delegate" destination="Fqc-9E-qnn" id="hPA-63-zvf"/>
-                                </connections>
-                            </pickerView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tD1-KR-LGl">
                                 <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <items>
@@ -330,7 +319,6 @@
                     <connections>
                         <outlet property="categoryButton" destination="uhx-FZ-Yhl" id="WZh-YA-dqW"/>
                         <outlet property="mainView" destination="pao-FX-HDJ" id="M3U-eQ-TGx"/>
-                        <outlet property="pickerView" destination="jdJ-sL-35Q" id="x8H-7c-PAm"/>
                         <outlet property="table" destination="jzx-4j-SGa" id="M1u-J8-fAe"/>
                         <segue destination="TMC-UO-5Jq" kind="popoverPresentation" identifier="categoryPop" popoverAnchorBarButtonItem="uhx-FZ-Yhl" id="3ap-gG-eNk">
                             <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
