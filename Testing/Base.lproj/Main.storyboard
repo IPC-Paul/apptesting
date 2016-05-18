@@ -23,21 +23,20 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-qm-BRU">
-                                            <rect key="frame" x="277" y="7" width="46" height="30"/>
-                                            <state key="normal" title="Button"/>
-                                            <connections>
-                                                <action selector="CategoryButtonPress:" destination="hG0-3z-oc0" eventType="touchUpInside" id="iXX-z9-EAX"/>
-                                            </connections>
-                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLo-Cd-VIt">
+                                            <rect key="frame" x="279" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="xuH-qm-BRU" firstAttribute="centerX" secondItem="WPS-55-e2O" secondAttribute="centerX" id="5mI-y4-pq4"/>
-                                        <constraint firstItem="xuH-qm-BRU" firstAttribute="centerY" secondItem="WPS-55-e2O" secondAttribute="centerY" id="SHg-yg-UWL"/>
+                                        <constraint firstItem="dLo-Cd-VIt" firstAttribute="centerY" secondItem="WPS-55-e2O" secondAttribute="centerY" id="Ae5-S6-7es"/>
+                                        <constraint firstItem="dLo-Cd-VIt" firstAttribute="centerX" secondItem="WPS-55-e2O" secondAttribute="centerX" id="bjW-Ko-cic"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="categoryButton" destination="xuH-qm-BRU" id="aSt-Nm-k3T"/>
+                                    <outlet property="categoryLabel" destination="dLo-Cd-VIt" id="HOA-TS-nm8"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -46,6 +45,11 @@
                             <outlet property="delegate" destination="TMC-UO-5Jq" id="CCi-6E-spe"/>
                         </connections>
                     </tableView>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="catTable" destination="leQ-B3-rhc" id="RSt-ig-qwx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgK-gX-JlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

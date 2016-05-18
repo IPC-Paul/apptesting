@@ -11,13 +11,9 @@ import UIKit
 class CategoryCell: UITableViewCell  {
     
     var thisCat : String = ""
-    @IBOutlet var categoryButton: UIButton!
+	
+	@IBOutlet var categoryLabel: UILabel!
     
-    
-    @IBAction func CategoryButtonPress(sender: AnyObject) {
-        currentCategory = thisCat
-    }
-
 }
 
 // var modalPresentationStyle: UIModalPresentationStyle

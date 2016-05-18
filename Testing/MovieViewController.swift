@@ -156,9 +156,11 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "categoryPop" {
             
-            var catPicker = segue.destinationViewController 
+            let catPicker = segue.destinationViewController as! CategoryTable
             
-            var controller = catPicker.popoverPresentationController
+            let controller = catPicker.popoverPresentationController
+            
+            catPicker.preferredContentSize = CGSize(width: 100, height: 100)
             
             if controller != nil {
                 controller?.delegate = self

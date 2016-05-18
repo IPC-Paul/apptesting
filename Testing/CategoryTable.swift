@@ -10,17 +10,36 @@ import UIKit
 
 class CategoryTable: UITableViewController {
     
+    @IBOutlet weak var catTable: UITableView!
+	var largestWidth : Float = 0
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+		
+		largestWidth = 0
+		
+		catTable.tableFooterView = UIView()
+		
+		self.preferredContentSize.height = catTable.contentSize.height
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell  {
-        let catCell = tableView.dequeueReusableCellWithIdentifier("categoryCell")
-        return catCell!
+        let catCell = tableView.dequeueReusableCellWithIdentifier("categoryCell") as! CategoryCell
+        
+        catCell.thisCat = categories[indexPath.row]
+		catCell.categoryLabel.text = categories[indexPath.row]
+		
+		if Float(catCell.categoryLabel.intrinsicContentSize().width) > largestWidth {
+			largestWidth = Float(catCell.categoryLabel.intrinsicContentSize().width)
+		}
+		
+		self.preferredContentSize.width = CGFloat(largestWidth + 20)
+		
+        return catCell
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
-    }
-    
-    override func tableView(tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
-        tableView.tableFooterView = UIView(frame: CGRectZero)
     }
     
     /*
