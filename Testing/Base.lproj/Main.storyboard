@@ -353,12 +353,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9V-WF-f7U">
-                                <rect key="frame" x="68" y="432" width="63" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldd-FQ-GM4">
                                 <rect key="frame" x="268" y="211" width="53" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -371,37 +365,49 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2G-gO-nBL">
-                                <rect key="frame" x="291" y="432" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oco-Pr-2l8">
-                                <rect key="frame" x="283" y="472" width="64" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCL-8U-yuf">
-                                <rect key="frame" x="154" y="515" width="106" height="30"/>
+                                <rect key="frame" x="154" y="587" width="106" height="30"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title=" Get Directions "/>
                                 <connections>
                                     <action selector="GetDirections:" destination="1GK-LA-JDi" eventType="touchUpInside" id="ZLR-6E-Gae"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9V-WF-f7U">
+                                <rect key="frame" x="68" y="492" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2G-gO-nBL">
+                                <rect key="frame" x="291" y="492" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oco-Pr-2l8">
+                                <rect key="frame" x="283" y="532" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4m7-dr-h1q" firstAttribute="baseline" secondItem="ldd-FQ-GM4" secondAttribute="baseline" id="55c-xW-vzz"/>
                             <constraint firstItem="w3f-tk-8fG" firstAttribute="top" secondItem="yP0-l7-sO3" secondAttribute="bottom" constant="17" id="8JJ-b1-or7"/>
                             <constraint firstItem="4m7-dr-h1q" firstAttribute="top" secondItem="w3f-tk-8fG" secondAttribute="bottom" constant="50" id="AFA-sX-tqE"/>
+                            <constraint firstItem="o9V-WF-f7U" firstAttribute="leading" secondItem="p7A-Av-GMx" secondAttribute="leading" constant="68" id="AVH-qa-Bsq"/>
                             <constraint firstItem="yP0-l7-sO3" firstAttribute="top" secondItem="1rb-LD-ASd" secondAttribute="bottom" id="FAW-2W-g0X"/>
-                            <constraint firstItem="HBV-He-UQK" firstAttribute="top" secondItem="dCL-8U-yuf" secondAttribute="bottom" constant="142" id="Usm-Yn-fpu"/>
+                            <constraint firstItem="HBV-He-UQK" firstAttribute="top" secondItem="o9V-WF-f7U" secondAttribute="bottom" constant="174" id="QKM-Ih-WNN"/>
+                            <constraint firstItem="HBV-He-UQK" firstAttribute="top" secondItem="dCL-8U-yuf" secondAttribute="bottom" constant="70" id="Usm-Yn-fpu"/>
+                            <constraint firstAttribute="trailing" secondItem="F2G-gO-nBL" secondAttribute="trailing" constant="77" id="W3A-ZV-TkZ"/>
+                            <constraint firstAttribute="trailing" secondItem="oco-Pr-2l8" secondAttribute="trailing" constant="67" id="Y6S-Te-jba"/>
                             <constraint firstItem="dCL-8U-yuf" firstAttribute="centerX" secondItem="w3f-tk-8fG" secondAttribute="centerX" id="YV5-FW-cYy"/>
                             <constraint firstAttribute="trailing" secondItem="yP0-l7-sO3" secondAttribute="trailing" id="aoG-0x-Xgd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ldd-FQ-GM4" secondAttribute="trailing" constant="73" id="b9l-yg-vWu"/>
+                            <constraint firstItem="HBV-He-UQK" firstAttribute="top" secondItem="oco-Pr-2l8" secondAttribute="bottom" constant="134" id="d0W-Dv-vsf"/>
+                            <constraint firstItem="oco-Pr-2l8" firstAttribute="top" secondItem="F2G-gO-nBL" secondAttribute="bottom" constant="19" id="rJ0-rT-dct"/>
                             <constraint firstItem="dCL-8U-yuf" firstAttribute="centerX" secondItem="p7A-Av-GMx" secondAttribute="centerX" id="sDg-S5-5nW"/>
                             <constraint firstItem="yP0-l7-sO3" firstAttribute="leading" secondItem="p7A-Av-GMx" secondAttribute="leading" id="uoh-ls-Q8m"/>
                             <constraint firstItem="yP0-l7-sO3" firstAttribute="centerX" secondItem="p7A-Av-GMx" secondAttribute="centerX" id="xMv-PH-f8Z"/>
@@ -612,7 +618,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZY-KW-wB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1615" y="297"/>
+            <point key="canvasLocation" x="-1891" y="2411"/>
         </scene>
         <!--Movie Detail View Controller-->
         <scene sceneID="1a9-7a-HC2">
@@ -927,10 +933,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hollywoodblvdlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="OSV-Dg-Oac">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hollywoodblvdlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="OSV-Dg-Oac">
                                 <rect key="frame" x="0.0" y="20" width="414" height="103"/>
                             </imageView>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FR6-kM-8Pt">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FR6-kM-8Pt">
                                 <rect key="frame" x="0.0" y="169" width="414" height="518"/>
                             </mapView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H2e-oh-tbS">
@@ -997,7 +1003,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1371" y="2411"/>
+            <point key="canvasLocation" x="-1615" y="297"/>
         </scene>
         <!--Terms-->
         <scene sceneID="aCj-Ef-EK8">
@@ -1011,7 +1017,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJj-DO-pwu">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJj-DO-pwu">
                                 <rect key="frame" x="0.0" y="121" width="414" height="566"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -1027,7 +1033,11 @@
                             <constraint firstItem="3ss-5O-8V0" firstAttribute="top" secondItem="HHm-af-cfC" secondAttribute="bottom" id="5Yq-Xi-7rT"/>
                             <constraint firstItem="3ss-5O-8V0" firstAttribute="leading" secondItem="fQO-6d-nLu" secondAttribute="leading" id="6QO-55-xT7"/>
                             <constraint firstAttribute="trailing" secondItem="3ss-5O-8V0" secondAttribute="trailing" id="7hi-2u-53A"/>
+                            <constraint firstAttribute="trailing" secondItem="aJj-DO-pwu" secondAttribute="trailing" id="CZh-Xy-6N0"/>
+                            <constraint firstItem="mAG-PM-D1R" firstAttribute="top" secondItem="aJj-DO-pwu" secondAttribute="bottom" id="Q7K-Nn-KII"/>
                             <constraint firstItem="mAG-PM-D1R" firstAttribute="top" secondItem="3ss-5O-8V0" secondAttribute="bottom" constant="564" id="gEp-Wp-p4n"/>
+                            <constraint firstItem="aJj-DO-pwu" firstAttribute="leading" secondItem="fQO-6d-nLu" secondAttribute="leading" id="hGr-J5-TY5"/>
+                            <constraint firstItem="aJj-DO-pwu" firstAttribute="top" secondItem="HHm-af-cfC" secondAttribute="bottom" constant="101" id="ufD-3w-507"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" tag="4" title="Terms" image="second" id="Jtc-Ah-hBO"/>
