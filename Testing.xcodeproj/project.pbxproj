@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA03CFD31CECEF6800EFDA3A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */; };
+		DA03CFD51CED003500EFDA3A /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA03CFD41CED003500EFDA3A /* readme.txt */; };
 		DA3B6C661CBC125F00CECD6D /* blvd_poster_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */; };
 		DA3B6C6A1CBC464500CECD6D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B6C691CBC464500CECD6D /* MovieViewController.swift */; };
 		DA8831CC1CBDA0A800E098C5 /* TermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8831CB1CBDA0A800E098C5 /* TermsController.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		DA03CFD41CED003500EFDA3A /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		DA3B6C651CBC125F00CECD6D /* blvd_poster_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blvd_poster_placeholder.png; sourceTree = "<group>"; };
 		DA3B6C691CBC464500CECD6D /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		DA8831CB1CBDA0A800E098C5 /* TermsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsController.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		DAA43EA11CB2DDBD00AEE214 = {
 			isa = PBXGroup;
 			children = (
+				DA03CFD41CED003500EFDA3A /* readme.txt */,
 				DAA43EAC1CB2DDBD00AEE214 /* Testing */,
 				DAA43EC31CB2DDBE00AEE214 /* TestingTests */,
 				DAA43ECE1CB2DDBE00AEE214 /* TestingUITests */,
@@ -335,6 +338,7 @@
 				DAA43EBA1CB2DDBE00AEE214 /* LaunchScreen.storyboard in Resources */,
 				DAA43EB71CB2DDBE00AEE214 /* Assets.xcassets in Resources */,
 				DAA43EB51CB2DDBD00AEE214 /* Main.storyboard in Resources */,
+				DA03CFD51CED003500EFDA3A /* readme.txt in Resources */,
 				DA8831CE1CBDA54300E098C5 /* hollywoodblvdlogo.png in Resources */,
 				DAA186211CBEE5C000A9F671 /* searchbutton.png in Resources */,
 			);
