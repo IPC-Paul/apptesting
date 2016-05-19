@@ -29,3 +29,6 @@ Ticket purchase thank you page prompt
 	"Would you like to invite your friends to this showtime?" (or similar)
 		would allow purchaser to enter email addresses to invite
 		could be picked up by standardized calendar management systems
+
+
+Testing Git commit username change
