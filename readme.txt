@@ -6,12 +6,15 @@ Movies lister
 	need imported data from external source to include showtimes nicely
 	need purchase information for submission, can build form in meantime
 		form built, no purchase info yet
-		not using form, web view with URL passed
-	create view for ticket purchase that omits header
+
+		no longer using iOS form - web view with URL parameters passed
+		create view on site for ticket purchase that omits header
+
 
 Map
 	Are we showing route information in-app or pushing users to map app to get directions?
 		Pushing to apple maps
+		Done
 
 Search
 	Just a search of the current movies? How deep does this go?
@@ -29,6 +32,3 @@ Ticket purchase thank you page prompt
 	"Would you like to invite your friends to this showtime?" (or similar)
 		would allow purchaser to enter email addresses to invite
 		could be picked up by standardized calendar management systems
-
-
-Testing Git commit username change

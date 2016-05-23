@@ -139,13 +139,13 @@
 				DA3A2E7A1CD7C52500D7FFCF /* Movies */,
 				DA3A2E7B1CD7C53200D7FFCF /* Search */,
 				DA3A2E781CD7C4EE00D7FFCF /* Unused */,
-				DAA43EB11CB2DDBD00AEE214 /* MapViewController.swift */,
-				DA03CFD81CED06A800EFDA3A /* TheaterViewController.swift */,
-				DA8831CB1CBDA0A800E098C5 /* TermsController.swift */,
 				DAA43EAD1CB2DDBD00AEE214 /* AppDelegate.swift */,
 				DAC8E84F1CB7F86000EAF853 /* BaseData.swift */,
 				DAC8E8501CB7F86000EAF853 /* Classes.swift */,
 				DA03CFD21CECEF6800EFDA3A /* GlobalFunctions.swift */,
+				DAA43EB11CB2DDBD00AEE214 /* MapViewController.swift */,
+				DA8831CB1CBDA0A800E098C5 /* TermsController.swift */,
+				DA03CFD81CED06A800EFDA3A /* TheaterViewController.swift */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";

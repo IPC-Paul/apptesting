@@ -8,9 +8,3 @@
 
 import Foundation
 
-func ChangeCategory (category: String) -> String {
-	
-	
-	
-	return category
-}
