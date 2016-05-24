@@ -12,7 +12,7 @@ class MoviePurchaseViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet var purchaseWebView: UIWebView!
     
-    let purchaseBaseURL : String = "https://www.hollywoodblvdcinema.com/index.php?src=directory&view=movies&submenu=Movies&srctype=movies_ticket_purchase&back=movies&filmId="
+    let purchaseBaseURL : String = "https://www.hollywoodblvdcinema.com/index.php?src=directory&view=movies&submenu=Movies&srctype=movies_ticket_purchase_minimal&filmId="
     let purchaseURLPart2 = "&showingId="
     
     var fullPurchaseURL : NSURL = NSURL()
