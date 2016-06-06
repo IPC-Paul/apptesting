@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -26,7 +26,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLo-Cd-VIt">
                                             <rect key="frame" x="129" y="11" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -350,13 +350,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hollywood Blvd Theater Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3f-tk-8fG">
                                 <rect key="frame" x="88" y="140" width="239" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image of the theater" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m7-dr-h1q">
                                 <rect key="frame" x="21" y="276" width="156" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCL-8U-yuf">
@@ -370,25 +370,25 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9V-WF-f7U">
                                 <rect key="frame" x="68" y="492" width="63" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2G-gO-nBL">
                                 <rect key="frame" x="291" y="492" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oco-Pr-2l8">
                                 <rect key="frame" x="283" y="532" width="64" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldd-FQ-GM4">
                                 <rect key="frame" x="288" y="276" width="53" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -677,7 +677,7 @@
                                     <constraint firstAttribute="width" secondItem="3dM-jg-HWv" secondAttribute="height" multiplier="2:3" id="8jb-np-8C9"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Blurb" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjJ-fd-JRd">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Movie Blurb" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjJ-fd-JRd">
                                 <rect key="frame" x="177" y="451" width="219" height="225"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="7QO-gF-0mP"/>
@@ -687,14 +687,56 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Showtime Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAb-UN-rau">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Showtime Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAb-UN-rau">
                                 <rect key="frame" x="18" y="689" width="378" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNp-rB-gVR">
-                                <rect key="frame" x="89" y="813" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRg-oy-ra1" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="97" y="717" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vw-bg-xYp" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="173" y="717" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzx-B3-9Tk" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="249" y="717" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMr-MT-xwE" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="97" y="755" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GD-RX-d1y" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="173" y="755" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNQ-5t-8qH" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="249" y="755" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNp-rB-gVR" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="97" y="793" width="68" height="30"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="eRq-Pf-2hr"/>
@@ -703,78 +745,29 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzx-B3-9Tk">
-                                <rect key="frame" x="241" y="737" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCL-GK-CGX" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="173" y="793" width="68" height="30"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Showtime">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRg-oy-ra1">
-                                <rect key="frame" x="89" y="737" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fr-9v-C6a" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="97" y="831" width="68" height="30"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Showtime">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNQ-5t-8qH">
-                                <rect key="frame" x="241" y="775" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-I6-kcT" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="173" y="831" width="68" height="30"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Showtime">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMr-MT-xwE">
-                                <rect key="frame" x="89" y="775" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s19-3m-8bh">
-                                <rect key="frame" x="165" y="927" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPj-jr-tCc">
-                                <rect key="frame" x="165" y="889" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-I6-kcT">
-                                <rect key="frame" x="165" y="851" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCL-GK-CGX">
-                                <rect key="frame" x="165" y="813" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GD-RX-d1y">
-                                <rect key="frame" x="165" y="775" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fr-9v-C6a">
-                                <rect key="frame" x="89" y="851" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Showtime">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vw-bg-xYp">
-                                <rect key="frame" x="165" y="737" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s19-3m-8bh" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="249" y="831" width="68" height="30"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Showtime">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -783,42 +776,79 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YN6-xe-nrL">
                                 <rect key="frame" x="18" y="231" width="378" height="212"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPj-jr-tCc" customClass="ShowtimeButton" customModule="Testing" customModuleProvider="target">
+                                <rect key="frame" x="249" y="793" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Showtime">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="0GD-RX-d1y" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="0y5-6g-HSe"/>
+                            <constraint firstItem="F9S-I6-kcT" firstAttribute="top" secondItem="rCL-GK-CGX" secondAttribute="bottom" constant="8" id="13P-sJ-7Qf"/>
                             <constraint firstItem="rCL-GK-CGX" firstAttribute="leading" secondItem="KNp-rB-gVR" secondAttribute="trailing" constant="8" symbolic="YES" id="2VQ-U2-QkL"/>
+                            <constraint firstItem="0fr-9v-C6a" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="2rT-S1-Eyy"/>
+                            <constraint firstItem="0GD-RX-d1y" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="3EY-wv-o4z"/>
+                            <constraint firstItem="eMr-MT-xwE" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="3MR-Xh-vfB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HjJ-fd-JRd" secondAttribute="trailing" constant="-2" id="3N0-10-mPp"/>
                             <constraint firstItem="KNp-rB-gVR" firstAttribute="leading" secondItem="0fr-9v-C6a" secondAttribute="leading" id="3sW-w3-JgS"/>
                             <constraint firstItem="YN6-xe-nrL" firstAttribute="top" secondItem="acr-IP-7je" secondAttribute="bottom" constant="8" symbolic="YES" id="48z-O1-7Dm"/>
+                            <constraint firstItem="KNp-rB-gVR" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="51c-c1-LVd"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="trailing" secondItem="hFC-xU-4ec" secondAttribute="trailing" id="52r-bR-ALp"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="trailing" secondItem="AAb-UN-rau" secondAttribute="trailing" id="5yr-IF-agO"/>
+                            <constraint firstItem="eMr-MT-xwE" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="66b-LT-YTb"/>
                             <constraint firstItem="KNp-rB-gVR" firstAttribute="leading" secondItem="eMr-MT-xwE" secondAttribute="leading" id="7GD-zj-rgc"/>
+                            <constraint firstItem="zPj-jr-tCc" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="8QE-Hq-vmu"/>
+                            <constraint firstItem="Uzx-B3-9Tk" firstAttribute="leading" secondItem="0vw-bg-xYp" secondAttribute="trailing" constant="8" id="8kG-cn-6JL"/>
+                            <constraint firstItem="zPj-jr-tCc" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="8mq-hz-xJR"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="leading" secondItem="3dM-jg-HWv" secondAttribute="trailing" constant="9" id="AUt-rO-IEm"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="centerX" secondItem="YN6-xe-nrL" secondAttribute="centerX" id="CP6-GJ-BdE"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="centerX" secondItem="AAb-UN-rau" secondAttribute="centerX" id="D5N-cN-SjN"/>
+                            <constraint firstItem="0vw-bg-xYp" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="DWZ-vQ-iIY"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="top" secondItem="YN6-xe-nrL" secondAttribute="bottom" constant="8" id="EFn-Iv-3wD"/>
-                            <constraint firstItem="KNp-rB-gVR" firstAttribute="leading" secondItem="qRs-9z-aW4" secondAttribute="leadingMargin" constant="69" id="EU7-7E-lbV"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="trailing" secondItem="6Wg-E6-57V" secondAttribute="trailing" id="Ep2-wD-UO1"/>
                             <constraint firstItem="0vw-bg-xYp" firstAttribute="leading" secondItem="DRg-oy-ra1" secondAttribute="trailing" constant="8" symbolic="YES" id="GOR-fN-rqC"/>
                             <constraint firstItem="DRg-oy-ra1" firstAttribute="baseline" secondItem="0vw-bg-xYp" secondAttribute="baseline" id="GpF-RN-hn9"/>
+                            <constraint firstItem="tNQ-5t-8qH" firstAttribute="leading" secondItem="0GD-RX-d1y" secondAttribute="trailing" constant="8" id="H7X-x3-kvE"/>
                             <constraint firstAttribute="trailing" secondItem="EQh-rf-QYd" secondAttribute="trailing" id="H9Y-ad-bXX"/>
+                            <constraint firstAttribute="trailing" secondItem="Uzx-B3-9Tk" secondAttribute="trailing" constant="18" id="IZp-nT-7VW"/>
+                            <constraint firstItem="DRg-oy-ra1" firstAttribute="leading" secondItem="qRs-9z-aW4" secondAttribute="leading" constant="18" id="K2T-KI-5Ny"/>
                             <constraint firstItem="Uzx-B3-9Tk" firstAttribute="leading" secondItem="0vw-bg-xYp" secondAttribute="trailing" constant="8" symbolic="YES" id="PFh-t0-Pi8"/>
+                            <constraint firstItem="s19-3m-8bh" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="PTG-rD-Ru9"/>
+                            <constraint firstItem="0GD-RX-d1y" firstAttribute="top" secondItem="0vw-bg-xYp" secondAttribute="bottom" constant="8" id="PbG-Rs-fVq"/>
                             <constraint firstItem="YN6-xe-nrL" firstAttribute="top" secondItem="6Wg-E6-57V" secondAttribute="top" id="SG2-ie-KbF"/>
+                            <constraint firstItem="tNQ-5t-8qH" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="Spx-z2-ZdW"/>
+                            <constraint firstItem="F9S-I6-kcT" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="U1C-yH-iNW"/>
+                            <constraint firstItem="KNp-rB-gVR" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="UFO-Q4-41s"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="trailing" secondItem="acr-IP-7je" secondAttribute="trailing" id="VWo-9t-bge"/>
+                            <constraint firstItem="Uzx-B3-9Tk" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="W0o-7I-cpa"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="trailing" secondItem="YN6-xe-nrL" secondAttribute="trailing" id="W3t-8I-AUh"/>
+                            <constraint firstItem="0vw-bg-xYp" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="Xrw-1Q-Vnh"/>
+                            <constraint firstItem="s19-3m-8bh" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="YN5-ea-RTm"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="leading" secondItem="hFC-xU-4ec" secondAttribute="leading" id="aDf-fC-T1u"/>
+                            <constraint firstItem="DRg-oy-ra1" firstAttribute="top" secondItem="AAb-UN-rau" secondAttribute="bottom" constant="8" id="aEV-xb-Flb"/>
                             <constraint firstItem="0fr-9v-C6a" firstAttribute="top" secondItem="KNp-rB-gVR" secondAttribute="bottom" constant="8" symbolic="YES" id="aQf-7I-Aaj"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="leading" secondItem="3dM-jg-HWv" secondAttribute="trailing" constant="9" id="awe-lg-HDQ"/>
                             <constraint firstAttribute="bottom" secondItem="EQh-rf-QYd" secondAttribute="bottom" constant="1136" id="bhD-3J-ffV"/>
+                            <constraint firstItem="0fr-9v-C6a" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="cFY-6I-FV2"/>
+                            <constraint firstItem="0GD-RX-d1y" firstAttribute="leading" secondItem="eMr-MT-xwE" secondAttribute="trailing" constant="8" id="dMT-Eu-7nT"/>
+                            <constraint firstItem="tNQ-5t-8qH" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="dQW-TZ-Xkl"/>
+                            <constraint firstItem="zPj-jr-tCc" firstAttribute="leading" secondItem="rCL-GK-CGX" secondAttribute="trailing" constant="8" id="eTg-bK-7hA"/>
                             <constraint firstItem="3dM-jg-HWv" firstAttribute="leading" secondItem="qRs-9z-aW4" secondAttribute="leading" constant="18" id="f1o-2Z-jfZ"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="top" secondItem="6Wg-E6-57V" secondAttribute="bottom" constant="8" symbolic="YES" id="fcu-oG-PDq"/>
                             <constraint firstItem="KNp-rB-gVR" firstAttribute="top" secondItem="eMr-MT-xwE" secondAttribute="bottom" constant="8" symbolic="YES" id="foZ-ez-5Ew"/>
+                            <constraint firstItem="0vw-bg-xYp" firstAttribute="leading" secondItem="DRg-oy-ra1" secondAttribute="trailing" constant="8" id="hwx-dg-e5y"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="top" secondItem="qRs-9z-aW4" secondAttribute="top" constant="451" id="jOC-Cz-4uw"/>
                             <constraint firstItem="eMr-MT-xwE" firstAttribute="top" secondItem="DRg-oy-ra1" secondAttribute="bottom" constant="8" symbolic="YES" id="jhE-AT-rJ4"/>
                             <constraint firstItem="DRg-oy-ra1" firstAttribute="baseline" secondItem="Uzx-B3-9Tk" secondAttribute="baseline" id="m0A-X6-Vvg"/>
+                            <constraint firstItem="Uzx-B3-9Tk" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="mcG-xB-V4R"/>
                             <constraint firstItem="KNp-rB-gVR" firstAttribute="top" secondItem="qRs-9z-aW4" secondAttribute="top" constant="813" id="nQP-5j-Qhg"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="leading" secondItem="qRs-9z-aW4" secondAttribute="leading" id="nRS-A3-N7i"/>
                             <constraint firstItem="tNQ-5t-8qH" firstAttribute="top" secondItem="Uzx-B3-9Tk" secondAttribute="bottom" constant="8" symbolic="YES" id="nS5-qE-SSv"/>
+                            <constraint firstItem="Uzx-B3-9Tk" firstAttribute="top" secondItem="AAb-UN-rau" secondAttribute="bottom" constant="8" id="nix-cY-FWn"/>
+                            <constraint firstItem="s19-3m-8bh" firstAttribute="leading" secondItem="F9S-I6-kcT" secondAttribute="trailing" constant="8" id="nz4-NI-Ngw"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="top" secondItem="3dM-jg-HWv" secondAttribute="top" id="ojn-TG-MJH"/>
                             <constraint firstItem="Uzx-B3-9Tk" firstAttribute="leading" secondItem="tNQ-5t-8qH" secondAttribute="leading" id="pCv-0C-5qh"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="centerX" secondItem="6Wg-E6-57V" secondAttribute="centerX" id="pTn-OH-Ni7"/>
@@ -827,9 +857,17 @@
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="top" secondItem="snY-cH-irJ" secondAttribute="bottom" id="qNX-Rf-TJ4"/>
                             <constraint firstItem="AAb-UN-rau" firstAttribute="top" secondItem="HjJ-fd-JRd" secondAttribute="bottom" constant="13" id="rKr-TZ-OHa"/>
                             <constraint firstItem="EQh-rf-QYd" firstAttribute="centerX" secondItem="acr-IP-7je" secondAttribute="centerX" id="sOL-B2-lqg"/>
+                            <constraint firstItem="s19-3m-8bh" firstAttribute="top" secondItem="zPj-jr-tCc" secondAttribute="bottom" constant="8" id="tcO-57-t1n"/>
+                            <constraint firstItem="0vw-bg-xYp" firstAttribute="top" secondItem="AAb-UN-rau" secondAttribute="bottom" constant="8" id="tft-KR-Sb7"/>
+                            <constraint firstItem="zPj-jr-tCc" firstAttribute="top" secondItem="tNQ-5t-8qH" secondAttribute="bottom" constant="8" id="tmE-PK-6jp"/>
                             <constraint firstItem="KNp-rB-gVR" firstAttribute="leading" secondItem="DRg-oy-ra1" secondAttribute="leading" id="wP1-rb-x8d"/>
                             <constraint firstItem="YN6-xe-nrL" firstAttribute="centerX" secondItem="qRs-9z-aW4" secondAttribute="centerX" id="weV-SP-ZJX"/>
+                            <constraint firstItem="rCL-GK-CGX" firstAttribute="leading" secondItem="KNp-rB-gVR" secondAttribute="trailing" constant="8" id="wpv-Kq-3aT"/>
                             <constraint firstItem="HjJ-fd-JRd" firstAttribute="top" secondItem="YN6-xe-nrL" secondAttribute="bottom" constant="8" symbolic="YES" id="xyB-Ov-MfD"/>
+                            <constraint firstItem="F9S-I6-kcT" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="yVF-Kf-FFN"/>
+                            <constraint firstItem="F9S-I6-kcT" firstAttribute="leading" secondItem="0fr-9v-C6a" secondAttribute="trailing" constant="8" id="yVl-LX-3EG"/>
+                            <constraint firstItem="rCL-GK-CGX" firstAttribute="width" secondItem="DRg-oy-ra1" secondAttribute="width" id="z4z-xx-S6Z"/>
+                            <constraint firstItem="rCL-GK-CGX" firstAttribute="height" secondItem="DRg-oy-ra1" secondAttribute="height" id="zB4-nx-zDZ"/>
                         </constraints>
                         <connections>
                             <outlet property="delegate" destination="ZDL-7l-eik" id="8Je-NX-19v"/>
@@ -846,18 +884,18 @@
                         <outlet property="showtimeDate" destination="AAb-UN-rau" id="Uo0-K3-SZ6"/>
                         <outlet property="videoFrame" destination="6Wg-E6-57V" id="UG0-DI-Yd7"/>
                         <outlet property="videomask" destination="YN6-xe-nrL" id="HLH-nU-zNb"/>
-                        <outletCollection property="showtimeButtons" destination="KNp-rB-gVR" collectionClass="NSMutableArray" id="1R5-Nv-r5f"/>
-                        <outletCollection property="showtimeButtons" destination="Uzx-B3-9Tk" collectionClass="NSMutableArray" id="2mW-fd-JEU"/>
-                        <outletCollection property="showtimeButtons" destination="DRg-oy-ra1" collectionClass="NSMutableArray" id="ssH-De-PzI"/>
-                        <outletCollection property="showtimeButtons" destination="tNQ-5t-8qH" collectionClass="NSMutableArray" id="Ru3-Iv-Bq9"/>
-                        <outletCollection property="showtimeButtons" destination="eMr-MT-xwE" collectionClass="NSMutableArray" id="LU6-Cy-qbj"/>
-                        <outletCollection property="showtimeButtons" destination="s19-3m-8bh" collectionClass="NSMutableArray" id="xiN-K1-yiC"/>
-                        <outletCollection property="showtimeButtons" destination="zPj-jr-tCc" collectionClass="NSMutableArray" id="W0S-fC-ekV"/>
-                        <outletCollection property="showtimeButtons" destination="F9S-I6-kcT" collectionClass="NSMutableArray" id="kGX-b0-STO"/>
-                        <outletCollection property="showtimeButtons" destination="rCL-GK-CGX" collectionClass="NSMutableArray" id="Bv5-v3-PRO"/>
-                        <outletCollection property="showtimeButtons" destination="0GD-RX-d1y" collectionClass="NSMutableArray" id="g1g-ge-ou1"/>
-                        <outletCollection property="showtimeButtons" destination="0fr-9v-C6a" collectionClass="NSMutableArray" id="Fj6-Dd-wjq"/>
-                        <outletCollection property="showtimeButtons" destination="0vw-bg-xYp" collectionClass="NSMutableArray" id="Reb-DK-wOq"/>
+                        <outletCollection property="ShowTimeButtons" destination="DRg-oy-ra1" collectionClass="NSMutableArray" id="lyb-2Z-wvg"/>
+                        <outletCollection property="ShowTimeButtons" destination="0vw-bg-xYp" collectionClass="NSMutableArray" id="nug-N0-c42"/>
+                        <outletCollection property="ShowTimeButtons" destination="Uzx-B3-9Tk" collectionClass="NSMutableArray" id="bUE-Ay-ViG"/>
+                        <outletCollection property="ShowTimeButtons" destination="eMr-MT-xwE" collectionClass="NSMutableArray" id="gZb-42-gFh"/>
+                        <outletCollection property="ShowTimeButtons" destination="0GD-RX-d1y" collectionClass="NSMutableArray" id="KPO-St-9Ee"/>
+                        <outletCollection property="ShowTimeButtons" destination="tNQ-5t-8qH" collectionClass="NSMutableArray" id="gPC-xu-H16"/>
+                        <outletCollection property="ShowTimeButtons" destination="KNp-rB-gVR" collectionClass="NSMutableArray" id="a2B-z1-c0D"/>
+                        <outletCollection property="ShowTimeButtons" destination="rCL-GK-CGX" collectionClass="NSMutableArray" id="D9i-Jq-iFH"/>
+                        <outletCollection property="ShowTimeButtons" destination="zPj-jr-tCc" collectionClass="NSMutableArray" id="VQT-e6-cgW"/>
+                        <outletCollection property="ShowTimeButtons" destination="0fr-9v-C6a" collectionClass="NSMutableArray" id="JRQ-Tb-0Sc"/>
+                        <outletCollection property="ShowTimeButtons" destination="F9S-I6-kcT" collectionClass="NSMutableArray" id="qMO-A7-nP9"/>
+                        <outletCollection property="ShowTimeButtons" destination="s19-3m-8bh" collectionClass="NSMutableArray" id="69i-EY-VIt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BoJ-LT-bou" userLabel="First Responder" sceneMemberID="firstResponder"/>

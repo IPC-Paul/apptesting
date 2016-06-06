@@ -18,7 +18,8 @@ class MovieDetailViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet var blurb: UILabel!
     
     @IBOutlet var showtimeDate: UILabel!
-    @IBOutlet var showtimeButtons: [UIButton]!
+	@IBOutlet var ShowTimeButtons: [UIButton]!
+	
     
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var contentView: UIView!
@@ -40,17 +41,17 @@ class MovieDetailViewController: UIViewController, UIScrollViewDelegate {
         
         if movies[activeMovie].showtimes?.count != nil {
             for i in 0 ..< movies[activeMovie].showtimes!.count {
-                showtimeButtons[i].hidden = false
+                ShowTimeButtons[i].hidden = false
                 
                 let components = movieCalendar.components([.Hour, .Minute], fromDate: movies[activeMovie].showtimes![i].time)
                 
                 let timeLabel = "\(components.hour):\(components.minute)"
-                
+				
                 if movies[activeMovie].showtimes![i].available {
-                    showtimeButtons[i].setTitle(timeLabel, forState: UIControlState.Normal)
+                    ShowTimeButtons[i].setTitle(timeLabel, forState: UIControlState.Normal)
                 } else {
-                    showtimeButtons[i].enabled = false
-                    showtimeButtons[i].setTitle(timeLabel, forState: UIControlState.Disabled)
+                    ShowTimeButtons[i].enabled = false
+                    ShowTimeButtons[i].setTitle(timeLabel, forState: UIControlState.Disabled)
                 }
             }
         }
