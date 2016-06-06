@@ -8,7 +8,8 @@ Movies lister
 		form built, no purchase info yet
 
 		no longer using iOS form - web view with URL parameters passed
-		create view on site for ticket purchase that omits header
+			create view on site for ticket purchase that omits header
+			add js to new layout that interacts with swift to allow smoother navigation back
 
 
 Map
